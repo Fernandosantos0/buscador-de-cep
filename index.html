@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buscador de CEP</title>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <!-- css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+       
+        <!-- javascript -->
+        <script src="assets/js/script.js" defer></script>
+    </head>
+    <body>
+
+        <div id="container">
+            <header>
+                <h1>Buscador de CEP</h1>
+            </header>
+
+            <form action="" method="post" id="formulario">
+                <div class="campo-form">
+                    <label for="c-nome">Nome</label>
+                    <input type="text" name="nome" id="c-nome">
+                </div>
+
+                <div class="campo-form">
+                    <label for="c-sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="c-sobrenome">
+                </div>
+
+                <div class="campo-form">
+                    <label for="c-cep">CEP</label>
+                    <input type="text" name="nome" id="c-cep" class="cep">
+                </div>
+
+                <div class="campo-form">
+                    <label for="c-rua">Rua</label>
+                    <input type="text" name="rua" id="c-rua" class="logradouro">
+                </div>
+
+                <div class="campo-form">
+                    <label for="c-bairro">Bairro</label>
+                    <input type="text" name="bairro" id="c-bairro" class="bairro">
+                </div>
+
+                <div class="campo-form">
+                    <label for="c-localidade">Cidade</label>
+                    <input type="text" name="cidade" id="c-localidade" class="localidade">
+                </div>
+
+                <div class="campo-form">
+                    <label for="c-uf">Estado</label>
+                    <input type="text" name="uf" id="c-uf" class="uf">
+                    <!-- <select name="estado" id="c-uf" class="estado">
+                        <option value="" selected disabled>Selecionar</option>
+
+                        <optgroup label="Região Norte">
+                            <option value="am">AM</option>
+                            <option value="rr">RR</option>
+                            <option value="ap">AP</option>
+                            <option value="pa">PA</option>
+                            <option value="to">TO</option>
+                            <option value="ro">RO</option>
+                            <option value="Acre">AC</option>
+                        </optgroup>
+
+                        <optgroup label="Região Nordeste">
+                            <option value="ma">MA</option>
+                            <option value="pi">PI</option>
+                            <option value="ce">CE</option>
+                            <option value="rn">RN</option>
+                            <option value="pe">PE</option>
+                            <option value="pb">PB</option>
+                            <option value="se">SE</option>
+                            <option value="al">AL</option>
+                            <option value="BA">BA</option>
+                        </optgroup>
+
+                        <optgroup label="Região Centro-Oeste">
+                            <option value="mt">MT</option>
+                            <option value="ms">MS</option>
+                            <option value="go">GO</option>
+                        </optgroup>
+
+                        <optgroup label="Região Sudeste">
+                            <option value="es">ES</option>
+                            <option value="mg">MG</option>
+                            <option value="sp">SP</option>
+                            <option value="rj">RJ</option>
+                        </optgroup>
+
+                        <optgroup label="Região Sul">
+                            <option value="pr">PR</option>
+                            <option value="rs">RS</option>
+                            <option value="sc">SC</option>
+                        </optgroup>
+                    </select> -->
+                </div>
+
+                <button type="button" id="btn-enviar">Salvar</button>
+                <button type="reset" id="btn-reset">Limpar</button>
+            </form>
+        </div>
+        
+
+    </body>
+</html>
